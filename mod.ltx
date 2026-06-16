@@ -1,0 +1,18 @@
+[mod_info]
+name = "Anomaly EFP Transaction Mod"
+description = "Comprehensive transaction logging and financial tracking for Anomaly"
+version = "1.0.0"
+author = "dxjoker1994-dot"
+released = "2026-06-16"
+
+[dependencies]
+anomalies = true
+
+[load_priority]
+priority = 50
+
+[scripts]
+transaction_manager = "anomaly-efp-transaction-mod/gamedata/scripts/transaction_manager.lua"
+pda_guide_integration = "anomaly-efp-transaction-mod/gamedata/scripts/pda_guide_integration.lua"
+quest_rewards = "anomaly-efp-transaction-mod/gamedata/scripts/quest_rewards.lua"
+transaction_ui = "anomaly-efp-transaction-mod/gamedata/scripts/transaction_ui.lua"

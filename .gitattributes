@@ -1,0 +1,12 @@
+# Lua files
+*.lua text eol=lf
+
+# Config files
+*.ltx text eol=lf
+
+# Documentation
+*.md text eol=lf
+
+# Binary files
+*.dat binary
+*.dat binary

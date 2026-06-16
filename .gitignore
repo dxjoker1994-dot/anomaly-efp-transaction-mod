@@ -1,0 +1,27 @@
+# Anomaly game files
+*.log
+*.tmp
+*~
+
+# Save files
+*.dat
+*.save
+*.sav
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Lua compiled files
+*.luac
+
+# Backup files
+*.bak
+*.backup
